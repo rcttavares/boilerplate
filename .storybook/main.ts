@@ -1,6 +1,6 @@
 const config = {
   staticDirs: ['../public'],
-  stories: ['..src/components/**/stories.tsx'],
+  stories: ['../src/components/**/stories.tsx'],
   addons: ['@storybook/addon-essentials'],
   framework: {
     name: '@storybook/nextjs',
@@ -9,7 +9,7 @@ const config = {
   docs: {
     autodocs: true
   },
-  webpackFinal: (config: { resolve: { modules: string[] } }) => {
+  webpackFinal: (config) => {
     config.resolve.modules.push(`${process.cwd()}/src`)
     return config
   }
