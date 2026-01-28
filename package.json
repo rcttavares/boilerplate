@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src .jest jest.config.js",
     "prepare": "husky install",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
@@ -20,13 +20,14 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "eslint-config-next": "13.4.19",
-    "next": "14.2.35",
+    "next": "^16.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^6.0.7",
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@storybook/addon-docs": "^10.2.1",
     "@storybook/addon-links": "^10.2.1",
     "@storybook/addon-onboarding": "^10.2.1",
     "@storybook/nextjs-vite": "^10.2.1",
@@ -48,7 +49,6 @@
     "lint-staged": "^15.2.10",
     "plop": "^4.0.0",
     "prettier": "3.0.3",
-    "storybook": "^10.2.1",
-    "@storybook/addon-docs": "^10.2.1"
+    "storybook": "^10.2.1"
   }
 }
