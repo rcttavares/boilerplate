@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx src .jest jest.config.js",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "prepare": "husky install",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
