@@ -1,6 +1,6 @@
-# React Avançado
+# React Advanced
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![React Advanced](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
 ## What is inside?
 
@@ -43,15 +43,15 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Security audit
 
-O projeto mantém `npm audit` sem vulnerabilidades. Se você quiser checar somente dependências de runtime (produção), use o comando abaixo.
+This project aims to keep `npm audit` with zero vulnerabilities. If you want to check only runtime (production) dependencies, use the command below.
 
-- Auditoria focada em produção (runtime deps):
+- Production-focused audit (runtime deps):
 
 ```bash
 npm run audit:prod
 ```
 
-- Auditoria completa (falha se existir qualquer vulnerabilidade):
+- Full audit (fails if any vulnerability exists):
 
 ```bash
 npm run audit
