@@ -1,6 +1,6 @@
-# React Advanced
+# Boilerplate
 
-![React Advanced](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![Boilerplate](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
 ## What is inside?
 
@@ -12,34 +12,45 @@ This project uses lot of stuff as:
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
+- [Biome](https://biomejs.dev/) (lint/check)
 - [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+- [Husky](https://github.com/typicode/husky) + [lint-staged](https://github.com/lint-staged/lint-staged)
+- [Plop](https://plopjs.com/) (generators)
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Commands
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
 - `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
+- `lint`: runs Biome linter across the project
+- `check`: runs Biome checks and applies safe fixes
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
+- `test:ci`: runs jest in CI mode
 - `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+- `build-storybook`: creates the build version of storybook
+- `generate`: scaffolds code using Plop generators
+- `audit`: runs `npm audit` (fails if any vulnerability exists)
+- `audit:prod`: runs `npm audit` for runtime dependencies only
+- `prepare`: installs Git hooks via Husky
 
 ## Security audit
 
