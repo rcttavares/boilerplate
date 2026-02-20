@@ -1,7 +1,7 @@
+import type { Decorator } from '@storybook/react'
 import GlobalStyles from '../src/styles/global'
-import React from 'react'
 
-export const decorators = [
+export const decorators: Decorator[] = [
   (Story) => (
     <>
       <GlobalStyles />

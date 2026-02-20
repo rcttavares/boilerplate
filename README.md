@@ -1,3 +1,5 @@
+# React Avançado
+
 ![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
 ## What is inside?
@@ -38,6 +40,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+
+## Security audit
+
+O projeto mantém `npm audit` sem vulnerabilidades. Se você quiser checar somente dependências de runtime (produção), use o comando abaixo.
+
+- Auditoria focada em produção (runtime deps):
+
+```bash
+npm run audit:prod
+```
+
+- Auditoria completa (falha se existir qualquer vulnerabilidade):
+
+```bash
+npm run audit
+```
 
 ## Learn More
 

@@ -1,8 +1,10 @@
 module.exports = {
   // Lint & Prettify TS and JS files
   '*.{js,jsx,ts,tsx}': (filenames) => [
-    `prettier --write ${filenames.join(' ')}`,
-    `eslint --fix ${filenames.join(' ')}`,
+    `node ./node_modules/prettier/bin/prettier.cjs --write ${filenames.join(
+      ' '
+    )}`,
+    `biome lint --write ${filenames.join(' ')}`,
     `npm test -- --findRelatedTests ${filenames.join(' ')}`
   ]
 }

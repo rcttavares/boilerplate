@@ -2,15 +2,14 @@
 // https://github.com/styled-components/jest-styled-components/blob/master/typings/index.d.ts
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/ban-types */
 import { NewPlugin } from 'pretty-format'
 import { css } from 'styled-components'
 
 declare global {
   namespace jest {
     interface AsymmetricMatcher {
-      $$typeof: Symbol
-      sample?: string | RegExp | object | Array<any> | Function
+      $$typeof: symbol
+      sample?: string | RegExp | object | Array<any> | ((...args: any[]) => any)
     }
 
     type Value = string | number | RegExp | AsymmetricMatcher | undefined
