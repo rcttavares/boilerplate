@@ -51,6 +51,7 @@
     "typescript": "5.2.2"
   },
   "overrides": {
-    "minimatch": "file:vendor/minimatch-compat"
+    "minimatch": "file:vendor/minimatch-compat",
+    "postcss": "8.5.15"
   }
 }
