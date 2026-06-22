@@ -48,7 +48,7 @@
     "plop": "^4.0.0",
     "prettier": "3.0.3",
     "storybook": "^10.2.1",
-    "typescript": "5.2.2"
+    "typescript": "5.9.3"
   },
   "overrides": {
     "minimatch": "file:vendor/minimatch-compat",
