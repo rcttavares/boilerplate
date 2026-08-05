@@ -52,7 +52,7 @@
   },
   "overrides": {
     "minimatch": "file:vendor/minimatch-compat",
-    "postcss": "8.5.15",
+    "postcss": "8.5.23",
     "js-yaml": "^5.0.0"
   }
 }
