@@ -45,7 +45,6 @@
     "jest-environment-jsdom": "^30.4.1",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^15.2.10",
-    "minimatch": "file:vendor/minimatch-compat",
     "plop": "^4.0.0",
     "prettier": "3.0.3",
     "storybook": "^10.5.7",
@@ -53,7 +52,6 @@
   },
   "overrides": {
     "image-size": "file:vendor/image-size-compat",
-    "minimatch": "file:vendor/minimatch-compat",
     "postcss": "8.5.23",
     "js-yaml": "^5.0.0"
   }
