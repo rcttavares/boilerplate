@@ -40,6 +40,7 @@
     "@types/react-dom": "18.2.7",
     "brace-expansion": "^5.0.9",
     "husky": "^8.0.0",
+    "image-size": "file:vendor/image-size-compat",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.4.1",
     "jest-styled-components": "^7.1.1",
@@ -51,6 +52,7 @@
     "typescript": "5.9.3"
   },
   "overrides": {
+    "image-size": "file:vendor/image-size-compat",
     "minimatch": "file:vendor/minimatch-compat",
     "postcss": "8.5.23",
     "js-yaml": "^5.0.0"
