@@ -38,7 +38,7 @@
     "@types/node": "^22.12.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
-    "brace-expansion": "^5.0.9",
+    "brace-expansion": "^5.0.12",
     "husky": "^8.0.0",
     "image-size": "file:vendor/image-size-compat",
     "jest": "^30.2.0",
