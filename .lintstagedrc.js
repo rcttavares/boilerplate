@@ -5,6 +5,6 @@ module.exports = {
       ' '
     )}`,
     `biome lint --write ${filenames.join(' ')}`,
-    `npm test -- --findRelatedTests ${filenames.join(' ')}`
+    `npx vitest related --run ${filenames.join(' ')}`
   ]
 }

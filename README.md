@@ -9,7 +9,7 @@ This project uses lot of stuff as:
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
+- [Vitest](https://vitest.dev/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Storybook](https://storybook.js.org/)
 - [Biome](https://biomejs.dev/) (lint/check)
@@ -42,9 +42,9 @@ You can start editing the page by modifying `src/app/page.tsx`. The page auto-up
 - `start`: starts a simple server with the build production code
 - `lint`: runs Biome linter across the project
 - `check`: runs Biome checks and applies safe fixes
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `test:ci`: runs jest in CI mode
+- `test`: runs vitest to test all components and pages
+- `test:watch`: runs vitest in watch mode
+- `test:ci`: runs vitest in CI mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: creates the build version of storybook
 - `generate`: scaffolds code using Plop generators
